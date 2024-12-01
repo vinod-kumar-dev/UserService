@@ -7,9 +7,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using UserService;
-using UserService.Controllers;
+using UserService.Test;
 using UserService.Interfaces;
 using UserService.Models;
+using UserService.Controllers;
 
 namespace UserService.Test
 {
