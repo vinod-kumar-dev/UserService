@@ -37,15 +37,13 @@ jobs:
         run: |
           New-Item -Path .\.sonar\scanner -ItemType Directory
           dotnet tool update dotnet-sonarscanner --tool-path .\.sonar\scanner
-      - name: Run Unit Tests and Generate Report
-        run: |
-          dotnet test --logger "xunit;LogFilePath=test-results.xml"
       - name: Build and analyze
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         shell: powershell
         run: |
-          .\.sonar\scanner\dotnet-sonarscanner begin /k:"vinod-kumar-dev_UserService" /o:"vinod-kumar-dev" /d:sonar.token="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io" /d:sonar.cs.vstest.reportsPaths="**/test-results.xml"
+          .\.sonar\scanner\dotnet-sonarscanner begin /k:"vinod-kumar-dev_UserService" /o:"vinod-kumar-dev" /d:sonar.token="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io"
           dotnet build
+          dotnet test --logger "trx;LogFileName=test-results.trx"  # Use Visual Studio logger to generate .trx file
           .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.token="${{ secrets.SONAR_TOKEN }}"
