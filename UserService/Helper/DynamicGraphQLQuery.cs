@@ -7,7 +7,7 @@ using UserService.Services;
 namespace UserService.Helper
 {
     public class DynamicGraphQLQuery : ObjectGraphType
-    { 
+    {
         public DynamicGraphQLQuery(IConfiguration configuration)
         {
             var connectionString = configuration.GetConnectionString("DefaultConnection");
