@@ -23,7 +23,7 @@ namespace UserService.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Add(BookModel request)
+        public async Task<IActionResult> Add1(BookModel request)
         {
 
             return Ok(await _book.Add(request));
