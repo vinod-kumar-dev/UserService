@@ -13,7 +13,7 @@ namespace UserService
             _connectionString = _configuration.GetConnectionString("DefaultConnection");
         }
         private IDbConnection CreateConnection()
-            => new SqlConnection(_connectionString);
+            => new SqlConnection(_connectionString); 
 
 
         public async Task<IEnumerable<T>> QueryAsync<T>(string sql, object parameters = null, CommandType commandType = CommandType.Text)
