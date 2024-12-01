@@ -4,7 +4,6 @@ using GraphQL.Types;
 using System.Data.SqlClient;
 using UserService.Models;
 using UserService.Services;
-
 namespace UserService.Helper
 {
     public class DynamicGraphQLQuery : ObjectGraphType
