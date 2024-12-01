@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D/32ULMicbA=",
+  "dgSpecHash": "g6s1Bm/Hoks=",
   "success": true,
-  "projectFilePath": "C:\\Vinod\\DotnetProjects\\UserAPI\\UserAPI\\UserAPI.csproj",
+  "projectFilePath": "C:\\Vinod\\DotnetProjects\\UserService\\UserAPI\\UserService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Vinod Kumar\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Vinod Kumar\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

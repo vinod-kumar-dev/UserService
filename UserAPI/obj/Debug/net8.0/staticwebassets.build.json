@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "1yWqgDj0M/FaRQjpUJyxCoVEkJkge/+Zb7UBDCjBUVA=",
-  "Source": "UserAPI",
-  "BasePath": "_content/UserAPI",
+  "Hash": "HiED2kxDEZqgMUPkjWKpMZynmY8CArzhSMBmCh7I47M=",
+  "Source": "UserService",
+  "BasePath": "_content/UserService",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

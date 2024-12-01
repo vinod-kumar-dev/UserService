@@ -2,10 +2,10 @@
 using GraphQL;
 using GraphQL.Types;
 using System.Data.SqlClient;
-using UserAPI.Models;
-using UserAPI.Services;
+using UserService.Models;
+using UserService.Services;
 
-namespace UserAPI.Helper
+namespace UserService.Helper
 {
     public class DynamicGraphQLQuery : ObjectGraphType
     {

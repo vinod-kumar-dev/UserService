@@ -1,7 +1,7 @@
 ﻿using System.Data;
 using System.Data.SqlClient;
 using Dapper;
-namespace UserAPI
+namespace UserService
 {
     public class DapperContext
     {

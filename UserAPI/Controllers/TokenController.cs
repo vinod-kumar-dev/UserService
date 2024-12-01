@@ -4,13 +4,13 @@ using Microsoft.AspNetCore.OutputCaching;
 using Microsoft.Extensions.Caching.Distributed;
 using Microsoft.Extensions.Caching.Memory;
 using System.Collections.Generic;
-using UserAPI.Interfaces;
-using UserAPI.Services;
-using UserAPI.ViewModels;
+using UserService.Interfaces;
+using UserService.Services;
+using UserService.ViewModels;
 using Microsoft.Extensions.Caching.Distributed;
 using System.Text.Json;
 
-namespace UserAPI.Controllers
+namespace UserService.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

@@ -1,4 +1,4 @@
-﻿namespace UserAPI.Middlewere
+﻿namespace UserService.Middlewere
 {
     public class GraphQLMetricsMiddleware
     {

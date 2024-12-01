@@ -1,6 +1,6 @@
-﻿using UserAPI.ViewModels;
+﻿using UserService.ViewModels;
 
-namespace UserAPI.Interfaces
+namespace UserService.Interfaces
 {
     public interface IToken
     {

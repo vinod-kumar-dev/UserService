@@ -6,12 +6,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using UserAPI;
-using UserAPI.Controllers;
-using UserAPI.Interfaces;
-using UserAPI.Models;
+using UserService;
+using UserService.Controllers;
+using UserService.Interfaces;
+using UserService.Models;
 
-namespace UserAPI.Test
+namespace UserService.Test
 {
     [TestFixture]
     public class UserControllerTest

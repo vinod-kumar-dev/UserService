@@ -1,11 +1,11 @@
 using System.Collections.Generic;
-using UserAPI.Interfaces;
-using UserAPI.ViewModels.Common;
-using UserAPI;
+using UserService.Interfaces;
+using UserService.ViewModels.Common;
+using UserService;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
-using UserAPI.Helper;
+using UserService.Helper;
 using System.Reflection;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Caching.Distributed;
@@ -14,7 +14,7 @@ using StackExchange.Redis;
 using GraphQL;
 using GraphQL.Types;
 using GraphQL.Server;
-using UserAPI.Middlewere;
+using UserService.Middlewere;
 using GraphQL.Server.Ui.Playground;
 using Microsoft.Extensions.Options;
 

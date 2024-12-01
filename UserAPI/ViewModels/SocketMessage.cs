@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UserAPI.ViewModels
+namespace UserService.ViewModels
 {
     public class SocketMessage<T>
     {

@@ -1,4 +1,4 @@
-﻿namespace UserAPI.ViewModels.Common
+﻿namespace UserService.ViewModels.Common
 {
     public class JWTSettings
     {

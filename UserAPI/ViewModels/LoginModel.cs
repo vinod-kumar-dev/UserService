@@ -1,4 +1,4 @@
-﻿namespace UserAPI.ViewModels
+﻿namespace UserService.ViewModels
 {
     public class LoginModel
     {

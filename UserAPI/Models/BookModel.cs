@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using StackExchange.Redis;
 
-namespace UserAPI.Models
+namespace UserService.Models
 {
     public class BookModel
     {

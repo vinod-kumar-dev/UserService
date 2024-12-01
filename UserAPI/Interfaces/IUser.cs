@@ -1,8 +1,8 @@
 ﻿using System.Threading.Tasks;
-using UserAPI.Models;
-using UserAPI.ViewModels;
+using UserService.Models;
+using UserService.ViewModels;
 
-namespace UserAPI.Interfaces
+namespace UserService.Interfaces
 {
     public interface IUser
     {

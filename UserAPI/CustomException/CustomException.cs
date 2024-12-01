@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using System.Net;
 
-namespace UserAPI.CustomException
+namespace UserService.CustomException
 {
     public class CustomException : Exception
     {

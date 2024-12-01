@@ -1,18 +1,18 @@
 ﻿using System.Data;
-using UserAPI.Interfaces;
-using UserAPI.ViewModels;
-using UserAPI.Helper;
+using UserService.Interfaces;
+using UserService.ViewModels;
+using UserService.Helper;
 using System.Security.Claims;
 using System.Text;
-using UserAPI.ViewModels.Common;
+using UserService.ViewModels.Common;
 using Microsoft.Extensions.Options;
 using System.IdentityModel.Tokens.Jwt;
 using Microsoft.IdentityModel.Tokens;
-using UserAPI.CustomException;
+using UserService.CustomException;
 using Microsoft.Extensions.Caching.Distributed;
 using System.Text.Json;
-using UserAPI.Models;
-namespace UserAPI.Services
+using UserService.Models;
+namespace UserService.Services
 {
     public class User:IUser
     {
