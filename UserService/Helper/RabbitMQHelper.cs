@@ -4,7 +4,6 @@ using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 using System.Text;
 using System.Threading.Channels;
-
 namespace UserService.Helper
 {
     public class RabbitMQHelper
