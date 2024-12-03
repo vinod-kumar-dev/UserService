@@ -9,6 +9,7 @@ using UserService.Services;
 using UserService.ViewModels;
 using System.Text.Json;
 using UserService.Models;
+using UserService.Helper;
 
 namespace UserService.Controllers
 {
@@ -44,6 +45,13 @@ namespace UserService.Controllers
         {
 
             return Ok(await _user.GetUserById(id));
+        }
+        [HttpGet("Produced")]
+        public async Task<IActionResult> ProduceRabbitMQMessage()
+        {
+            //RabbitMQHelper helper = new RabbitMQHelper();
+            //await helper.ProduceMessageAsync();
+            return Ok();
         }
     }
 }
